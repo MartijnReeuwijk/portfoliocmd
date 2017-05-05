@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "BrushScriptStd";
+  src: url("../font/BrushScriptStd.ttf") format("truetype");
+}
+.frontpage{
+	background-image: url("../img/background");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.frontpage p {
+	  text-shadow: 2px 2px #f0c419;
+}
+.frontpage a, .frontpage p {
+	font-family: "BrushScriptStd";
+}
+.frontpage p{
+font-size: 20px;
+line-height: 20px;
+color: black;
+
+}
+.logo{
+
+}
+
+.mainholder{
+	width: 100%;
+	height: auto;
+	position: relative;
+	background-color: red;
+}
+.mainholder article{
+	width: 50%;
+	float: left;
+	height: 300px;
+	position: relative;
+}
+.mainholder article:nth-of-type(1){
+	width: 20%;
+	background-color: orange;
+}
+.mainholder article:nth-of-type(2){
+	width: 10%;
+	background-color: blue;
+}
+.mainholder article:nth-of-type(3){
+	width: 30%;
+	background-color: white;
+}
+.mainholder article:nth-of-type(4){
+	width: 40%;
+	background-color: black;
+}
